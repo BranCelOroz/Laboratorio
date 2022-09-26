@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #74a974;
+  color: white;
+  height: 80px;
+}
+header{
+    padding-bottom: 50px;
+}
+body{
+    background-color: #ecffec;
+}
+footer{
+  background-color: #74a974;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: black;
+  text-align: center;
+}

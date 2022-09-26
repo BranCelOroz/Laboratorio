@@ -7,22 +7,57 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Pag 1</title>
+        <title>Laboratorio</title>          
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">               
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
-    <body>        
-        <a href="Control">verificar servlet objeto response</a>
-        
-        <form action="Control" method="get">
-            <label>Nombres:  </label>
-            <input type="text" name="txt_nombres" required/>
-            <label>Apellidos:  </label>
-            <input type="text" name="txt_apellidos" required/>
-            <input type="submit" name="btn_registrar" value="Registrar"/>
-        </form>
-            
-            
+    <body>     
+        <nav class="navbar" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.webp  " alt="Logo" width="60" height="60" class="d-inline-block align-text-center color-text-light">
+                    LABORATORIO
+                </a>
+            </div>
+        </nav>
+        <header style="text-align: center">
+              <h1>Esta es mi Pagina Web</h1>
+        </header>
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col">
+                    <a href="Control" class="btn btn-outline-success">verificar servlet objeto response</a>
+                </div>
+                <div class="col">                  
+                   
+
+                    <form class="row g-3"action="Control" method="get">
+                        <div class="mb-3">
+                            <label>Nombre</label>
+                            <input type="text"  class="form-control" name="txt_nombres" required >
+                        </div>
+                        <div class="mb-3">
+                            <label>Apellido</label>
+                            <input type="text" class="form-control" name="txt_apellidos" required>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-outline-dark btn-lg" name="btn_registrar">registrar</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <p>Brandon Celeita - Prog. Componentes - 2022</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </body>
 
 </html>

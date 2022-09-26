@@ -67,12 +67,15 @@ public class Control extends HttpServlet {
             out.println("<html>");
             out.println("<head>");
             out.println("<title>respuesta1</title>");
+            out.println("<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT\" crossorigin=\"anonymous\">");
+            out.println(" <link rel=\"stylesheet\" href=\"../../../../webapp/css/estilos.css\">");       
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>El domicilio llegó: " + n + " " + a + "</h1>");
             out.println("<h1>esta es un respuesta control</h1>");
             out.println("</body>");
             out.println("</html>");
+            
         }
     }
 
