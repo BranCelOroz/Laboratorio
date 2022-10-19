@@ -26,6 +26,14 @@
         <div class="container text-center">
             <div class="row align-items-center">             
                 <div class="col-md-12">                                     
+
+            <div class="row align-items-center">   
+                <div class="col">
+                    <div class="mb-3">
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col">                                     
                     <form class="row g-3"action="Control" method="get">
                         <div class="mb-3">
                             <label>Nombre</label>
