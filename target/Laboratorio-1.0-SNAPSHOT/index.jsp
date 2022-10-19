@@ -23,25 +23,25 @@
                 </a>
             </div>
         </nav>
-        <header style="text-align: center">
-              <h1>Esta es mi Pagina Web</h1>
-        </header>
         <div class="container text-center">
-            <div class="row align-items-center">
-                <div class="col">
-                    <a href="Control" class="btn btn-outline-success">verificar servlet objeto response</a>
-                </div>
-                <div class="col">                  
-                   
-
+            <div class="row align-items-center">             
+                <div class="col">                                     
                     <form class="row g-3"action="Control" method="get">
                         <div class="mb-3">
                             <label>Nombre</label>
                             <input type="text"  class="form-control" name="txt_nombres" required >
                         </div>
                         <div class="mb-3">
-                            <label>Apellido</label>
-                            <input type="text" class="form-control" name="txt_apellidos" required>
+                            <label>Telefono</label>
+                            <input type="text" class="form-control" name="txt_telefono" required>
+                        </div>
+                        <div class="mb-3">
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="txt_email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label>Contraseña</label>
+                            <input type="password" class="form-control" name="txt_clave" required>
                         </div>
                         <div class="mb-3">
                             <button type="submit" class="btn btn-outline-dark btn-lg" name="btn_registrar">registrar</button>
