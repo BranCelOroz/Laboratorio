@@ -25,7 +25,7 @@
         </nav>
         <div class="container text-center">
             <div class="row align-items-center">             
-                <div class="col">                                     
+                <div class="col-md-12">                                     
                     <form class="row g-3"action="Control" method="get">
                         <div class="mb-3">
                             <label>Nombre</label>
