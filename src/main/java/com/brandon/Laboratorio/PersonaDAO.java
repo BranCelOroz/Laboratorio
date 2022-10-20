@@ -29,7 +29,7 @@ public class PersonaDAO {
         List<PersonaDTO> lista=null;
         PreparedStatement ps;
         try{
-          ps=  con.getConexion().prepareStatement(SQL_READALL);
+          ps= con.getConexion().prepareStatement(SQL_READALL);
             ResultSet rs = ps.executeQuery();
             lista = new ArrayList<>();
             while(rs.next()){
