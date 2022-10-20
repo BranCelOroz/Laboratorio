@@ -39,16 +39,16 @@
                                     <input type="text"  class="form-control" name="txt_nombres" required >
                                 </div>
                                 <div class="mb-3">
-                                    <label>Telefono</label>
-                                    <input type="text" class="form-control" name="txt_telefono" required>
-                                </div>
-                                <div class="mb-3">
                                     <label>Email</label>
                                     <input type="email" class="form-control" name="txt_email" required>
                                 </div>
                                 <div class="mb-3">
                                     <label>Contraseña</label>
                                     <input type="password" class="form-control" name="txt_clave" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label>Telefono</label>
+                                    <input type="text" class="form-control" name="txt_telefono" required>
                                 </div>
                                 <div class="mb-3">
                                     <button type="submit" class="btn btn-outline-dark btn-lg" name="btn_registrar">registrar</button>
